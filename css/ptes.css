@@ -1,0 +1,46 @@
+*{margin:0px; padding:0px; box-sizing:border-box;}
+img{max-width:100%; height:auto; vertical-align:middle;}
+body{font-family: 'Roboto', sans-serif;}
+h1,h2,h3,h4,h5{font-family: 'Lato', sans-serif;}
+span{color:blue; font-weight:bold;}
+span1{color:#67734c; font-weight:bold;}
+
+
+.bg-dark {
+    background-color: #d8d7d5!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(33 39 42);
+}
+/*=========================about section start======================*/
+
+.abt{width:30%; text-align:center; }
+.abthead{ width:100%;   border-bottom:2px dashed blue;}
+
+.abtfirst{width:100%; height:100%; position:relative; cursor:pointer;}
+.abtext{width:100%; height:50%; color:rgba(255,255,255,0); background-color:rgba(0,0,0,0);
+position:absolute; left:0%; bottom:0%; padding:10px; text-align:center;}
+.abtfirst:hover .abtext{color:rgba(255,255,255,1); background-color:rgba(0,0,0,0.6);}
+
+
+/*=========================gallery section start======================*/
+
+.glr{width:100%; height:auto; overflow:hidden;}
+.glr img{transition:all 1.4s; cursor:pointer;}
+.glr:hover img{transform:scale(1.2);}
+
+
+.bg-success {
+    background-color: #f1f3f4!important;
+}
+
+.fthead{color:darkcyan; font-weight:bold; font-size:1.5rem;}
+.ftpara{padding:10px; color:black;}
+
+.ftlik li{list-style-type:none;}
+.ftlik li a{text-decoration:none; color:dark;}
+
+
+
+
